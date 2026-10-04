@@ -1,0 +1,1263 @@
+
+[
+  {
+    "code": 1,
+    "category": "Effort",
+    "source": "original",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Excellent overall effort"
+  },
+  {
+    "code": 2,
+    "category": "Effort",
+    "source": "original",
+    "tone": "neutral",
+    "tier": "satisfactory",
+    "grade_min": 65,
+    "grade_max": 84,
+    "comment": "Satisfactory effort"
+  },
+  {
+    "code": 3,
+    "category": "Effort",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Inconsistent effort"
+  },
+  {
+    "code": 4,
+    "category": "Effort",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to improve effort"
+  },
+  {
+    "code": 5,
+    "category": "Effort",
+    "source": "original",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "Unsatisfactory effort"
+  },
+  {
+    "code": 11,
+    "category": "Behavior & Attendance",
+    "source": "original",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Responsible behavior at all times"
+  },
+  {
+    "code": 12,
+    "category": "Behavior & Attendance",
+    "source": "original",
+    "tone": "neutral",
+    "tier": "satisfactory",
+    "grade_min": 65,
+    "grade_max": 84,
+    "comment": "Satisfactory behavior"
+  },
+  {
+    "code": 13,
+    "category": "Behavior & Attendance",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Occasional behavior problem"
+  },
+  {
+    "code": 14,
+    "category": "Behavior & Attendance",
+    "source": "original",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "Unsatisfactory behavior"
+  },
+  {
+    "code": 15,
+    "category": "Behavior & Attendance",
+    "source": "original",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "Major attendance concern"
+  },
+  {
+    "code": 28,
+    "category": "General Classroom",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Does not work to potential"
+  },
+  {
+    "code": 30,
+    "category": "General Classroom",
+    "source": "original",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "A pleasure to have in class"
+  },
+  {
+    "code": 31,
+    "category": "General Classroom",
+    "source": "original",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Imaginative and creative"
+  },
+  {
+    "code": 32,
+    "category": "General Classroom",
+    "source": "original",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Works beyond what is required"
+  },
+  {
+    "code": 33,
+    "category": "General Classroom",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Works to achieve quality"
+  },
+  {
+    "code": 34,
+    "category": "General Classroom",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Cooperative and attentive"
+  },
+  {
+    "code": 35,
+    "category": "General Classroom",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to use classroom time more productively"
+  },
+  {
+    "code": 37,
+    "category": "General Classroom",
+    "source": "original",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "Needs direct supervision"
+  },
+  {
+    "code": 38,
+    "category": "General Classroom",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Excessive talking hurting progress"
+  },
+  {
+    "code": 39,
+    "category": "General Classroom",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Is capable of doing much better"
+  },
+  {
+    "code": 41,
+    "category": "Organization & Preparation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Demonstrates excellent organizational skills"
+  },
+  {
+    "code": 42,
+    "category": "Organization & Preparation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Demonstrates creative thinking"
+  },
+  {
+    "code": 47,
+    "category": "Organization & Preparation",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to develop organizational skills"
+  },
+  {
+    "code": 48,
+    "category": "Organization & Preparation",
+    "source": "original",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "Fails to complete assignments on time"
+  },
+  {
+    "code": 51,
+    "category": "Organization & Preparation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Comes prepared with assignments and materials"
+  },
+  {
+    "code": 53,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Listens carefully and clearly communicates"
+  },
+  {
+    "code": 54,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Works well with a partner and/or groups"
+  },
+  {
+    "code": 58,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to listen carefully and communicate clearly"
+  },
+  {
+    "code": 59,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to work well with a partner or group"
+  },
+  {
+    "code": 61,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Actively and cooperatively participates in class"
+  },
+  {
+    "code": 62,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Completes homework and is prepared for class"
+  },
+  {
+    "code": 65,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Seeks extra help when needed"
+  },
+  {
+    "code": 66,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Does not participate unless called upon"
+  },
+  {
+    "code": 67,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "Needs to complete daily assignments"
+  },
+  {
+    "code": 70,
+    "category": "General Classroom",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Please encourage your child to seek extra help"
+  },
+  {
+    "code": 72,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Works above and beyond class requirements"
+  },
+  {
+    "code": 73,
+    "category": "General Classroom",
+    "source": "original",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Well organized, pleasure to have in class"
+  },
+  {
+    "code": 76,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "Not working to potential in class or on homework"
+  },
+  {
+    "code": 78,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to concentrate – distracted in class"
+  },
+  {
+    "code": 79,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Needs to spend more time on this subject"
+  },
+  {
+    "code": 80,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Works cooperatively on group projects"
+  },
+  {
+    "code": 81,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Exceeds minimum expectations"
+  },
+  {
+    "code": 82,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Works independently"
+  },
+  {
+    "code": 83,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Demonstrates excellent group leadership ability"
+  },
+  {
+    "code": 84,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "neutral",
+    "tier": "satisfactory",
+    "grade_min": 65,
+    "grade_max": 84,
+    "comment": "Shows improvement since last marking period"
+  },
+  {
+    "code": 85,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to improve group interaction skill"
+  },
+  {
+    "code": 86,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to develop self management skills"
+  },
+  {
+    "code": 87,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to complete tasks in a timely manner"
+  },
+  {
+    "code": 88,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to develop the ability to work independently"
+  },
+  {
+    "code": 89,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to improve the quality of his/her work"
+  },
+  {
+    "code": 90,
+    "category": "Understanding, Homework & Study Skills",
+    "source": "original",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Shows excellent understanding and insight"
+  },
+  {
+    "code": 91,
+    "category": "Understanding, Homework & Study Skills",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Shows good understanding and insight"
+  },
+  {
+    "code": 92,
+    "category": "Understanding, Homework & Study Skills",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Shows genuine interest in succeeding"
+  },
+  {
+    "code": 93,
+    "category": "Understanding, Homework & Study Skills",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Contributes regularly in class"
+  },
+  {
+    "code": 94,
+    "category": "Understanding, Homework & Study Skills",
+    "source": "original",
+    "tone": "neutral",
+    "tier": "satisfactory",
+    "grade_min": 65,
+    "grade_max": 84,
+    "comment": "Should be successful with continued effort"
+  },
+  {
+    "code": 95,
+    "category": "Understanding, Homework & Study Skills",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Needs to do homework regularly"
+  },
+  {
+    "code": 96,
+    "category": "Understanding, Homework & Study Skills",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Needs to do homework more carefully"
+  },
+  {
+    "code": 97,
+    "category": "Understanding, Homework & Study Skills",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Needs to prepare more for quizzes and tests"
+  },
+  {
+    "code": 98,
+    "category": "Understanding, Homework & Study Skills",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to obtain help outside of class time"
+  },
+  {
+    "code": 99,
+    "category": "Understanding, Homework & Study Skills",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to attend class more regularly"
+  },
+  {
+    "code": 100,
+    "category": "Attitude & Motivation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Attitude and participation excellent at all times"
+  },
+  {
+    "code": 101,
+    "category": "Attitude & Motivation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Student is well prepared and enthusiastic"
+  },
+  {
+    "code": 102,
+    "category": "Attitude & Motivation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Your child is self motivated concerning work"
+  },
+  {
+    "code": 108,
+    "category": "Effort",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Needs to use talent in a more positive manner"
+  },
+  {
+    "code": 109,
+    "category": "Effort",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "More effort is needed to bring up to ability level"
+  },
+  {
+    "code": 116,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Excellent work ethic & strives to achieve"
+  },
+  {
+    "code": 117,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Works productively in a group setting"
+  },
+  {
+    "code": 121,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Contributes in a positive manner"
+  },
+  {
+    "code": 122,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Prepared for class and ready to learn"
+  },
+  {
+    "code": 123,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "neutral",
+    "tier": "satisfactory",
+    "grade_min": 65,
+    "grade_max": 84,
+    "comment": "Grade reflects improvement in effort and attitude"
+  },
+  {
+    "code": 124,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "neutral",
+    "tier": "satisfactory",
+    "grade_min": 65,
+    "grade_max": 84,
+    "comment": "Fulfilling basic requirements, but can do better"
+  },
+  {
+    "code": 125,
+    "category": "Science & Labs",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Needs to improve the quality of lab reports"
+  },
+  {
+    "code": 126,
+    "category": "Science & Labs",
+    "source": "original",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "Does not meet state lab standards"
+  },
+  {
+    "code": 127,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Needs to participate more in class"
+  },
+  {
+    "code": 128,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to improve time management skills"
+  },
+  {
+    "code": 131,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Strives for quality work at all times"
+  },
+  {
+    "code": 132,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Actively cooperates & is tolerant of others"
+  },
+  {
+    "code": 133,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Contributes positively to class discussions"
+  },
+  {
+    "code": 135,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "Attitude & work ethic below potential"
+  },
+  {
+    "code": 136,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to refocus to strive for quality work"
+  },
+  {
+    "code": 137,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Lack of tolerance toward others is evident"
+  },
+  {
+    "code": 138,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Needs to participate in class discussions"
+  },
+  {
+    "code": 139,
+    "category": "Group Work & Communication",
+    "source": "original",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Works cooperatively/shows leadership ability"
+  },
+  {
+    "code": 140,
+    "category": "Problem Solving & Lab Skills",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Demonstrates good problem solving ability"
+  },
+  {
+    "code": 141,
+    "category": "Problem Solving & Lab Skills",
+    "source": "original",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "A self-directed learner"
+  },
+  {
+    "code": 142,
+    "category": "Problem Solving & Lab Skills",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Demonstrates good material manipulation skills"
+  },
+  {
+    "code": 144,
+    "category": "Problem Solving & Lab Skills",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to complete projects in a timely manner"
+  },
+  {
+    "code": 146,
+    "category": "Problem Solving & Lab Skills",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to improve problem solving ability"
+  },
+  {
+    "code": 147,
+    "category": "Problem Solving & Lab Skills",
+    "source": "original",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "Needs to improve work ethic & work to potential"
+  },
+  {
+    "code": 148,
+    "category": "Problem Solving & Lab Skills",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Needs to improve quality of work"
+  },
+  {
+    "code": 150,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Excellent participation and effort"
+  },
+  {
+    "code": 158,
+    "category": "Behavior & Attendance",
+    "source": "original",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Off task behavior disrupts classroom procedures"
+  },
+  {
+    "code": 160,
+    "category": "Work Ethic & Participation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Works above & beyond requirements in class"
+  },
+  {
+    "code": 174,
+    "category": "Attitude & Motivation",
+    "source": "original",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Is enthusiastic towards learning"
+  },
+  {
+    "code": 186,
+    "category": "Tardiness & Attendance",
+    "source": "original",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "1-6 Tardies - Occasionally tardy to class"
+  },
+  {
+    "code": 187,
+    "category": "Tardiness & Attendance",
+    "source": "original",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "6+ Tardies - Repeatedly tardy to class"
+  },
+  {
+    "code": 200,
+    "category": "Science Practices",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Asks thoughtful questions that deepen class discussions"
+  },
+  {
+    "code": 201,
+    "category": "Problem Solving & Lab Skills",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Follows lab safety procedures consistently"
+  },
+  {
+    "code": 202,
+    "category": "Problem Solving & Lab Skills",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Records careful, detailed observations during labs"
+  },
+  {
+    "code": 203,
+    "category": "Science Practices",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Analyzes data accurately and draws well-supported conclusions"
+  },
+  {
+    "code": 204,
+    "category": "Science Practices",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Supports claims with clear evidence and reasoning"
+  },
+  {
+    "code": 205,
+    "category": "Attitude & Motivation",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Shows genuine curiosity about scientific phenomena"
+  },
+  {
+    "code": 206,
+    "category": "Science Practices",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Builds and revises models to explain phenomena"
+  },
+  {
+    "code": 207,
+    "category": "Problem Solving & Lab Skills",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Handles lab equipment carefully and responsibly"
+  },
+  {
+    "code": 208,
+    "category": "Problem Solving & Lab Skills",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Cleans up the lab area thoroughly and helps others do the same"
+  },
+  {
+    "code": 209,
+    "category": "Group Work & Communication",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Contributes meaningful ideas during group investigations"
+  },
+  {
+    "code": 210,
+    "category": "Science Practices",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Uses scientific vocabulary correctly in speaking and writing"
+  },
+  {
+    "code": 211,
+    "category": "Science Practices",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Connects classroom concepts to real-world examples"
+  },
+  {
+    "code": 212,
+    "category": "Science Practices",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Designs thoughtful experiments with well-controlled variables"
+  },
+  {
+    "code": 213,
+    "category": "Work Ethic & Participation",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Perseveres through challenging tasks without giving up"
+  },
+  {
+    "code": 214,
+    "category": "Organization & Preparation",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Takes organized notes and uses them effectively to study"
+  },
+  {
+    "code": 215,
+    "category": "Work Ethic & Participation",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "good",
+    "grade_min": 78,
+    "grade_max": 100,
+    "comment": "Applies teacher feedback to correct mistakes and improve"
+  },
+  {
+    "code": 216,
+    "category": "Science Practices",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Graphs and interprets data accurately"
+  },
+  {
+    "code": 217,
+    "category": "Understanding, Homework & Study Skills",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Demonstrates mastery of current science standards"
+  },
+  {
+    "code": 218,
+    "category": "Group Work & Communication",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "strong",
+    "grade_min": 85,
+    "grade_max": 100,
+    "comment": "Helps classmates understand difficult concepts"
+  },
+  {
+    "code": 219,
+    "category": "Work Ethic & Participation",
+    "source": "custom",
+    "tone": "positive",
+    "tier": "exceptional",
+    "grade_min": 93,
+    "grade_max": 100,
+    "comment": "Consistently turns in complete, high-quality work"
+  },
+  {
+    "code": 220,
+    "category": "Missing Work",
+    "source": "custom",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Has one or more assignments that have not yet been submitted"
+  },
+  {
+    "code": 221,
+    "category": "Missing Work",
+    "source": "custom",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Has lab reports that have not yet been turned in"
+  },
+  {
+    "code": 222,
+    "category": "Missing Work",
+    "source": "custom",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Missing assignments are currently reflected in the grade; please check the gradebook for details"
+  },
+  {
+    "code": 223,
+    "category": "Missing Work",
+    "source": "custom",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Has several assignments missing; turning them in will be reflected in the grade"
+  },
+  {
+    "code": 224,
+    "category": "Missing Work",
+    "source": "custom",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Has not yet submitted the current unit project"
+  },
+  {
+    "code": 225,
+    "category": "Missing Work",
+    "source": "custom",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Lab data sheets or notebook entries are incomplete or not yet submitted"
+  },
+  {
+    "code": 226,
+    "category": "Missing Work",
+    "source": "custom",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "Grade reflects a large number of assignments that have not been turned in"
+  },
+  {
+    "code": 227,
+    "category": "Missing Work",
+    "source": "custom",
+    "tone": "negative",
+    "tier": "mild_concern",
+    "grade_min": 55,
+    "grade_max": 74,
+    "comment": "Has missing homework assignments that can still be made up"
+  },
+  {
+    "code": 228,
+    "category": "Missing Work",
+    "source": "custom",
+    "tone": "negative",
+    "tier": "concern",
+    "grade_min": 0,
+    "grade_max": 69,
+    "comment": "Has quizzes or tests that still need to be made up"
+  },
+  {
+    "code": 229,
+    "category": "Missing Work",
+    "source": "custom",
+    "tone": "negative",
+    "tier": "severe_concern",
+    "grade_min": 0,
+    "grade_max": 59,
+    "comment": "Most assignments this marking period have not yet been submitted"
+  }
+]

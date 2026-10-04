@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 300px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      padding: 12px;
+      margin: 0;
+      background-color: #f8f9fa;
+      position: relative;
+    }
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    h3 {
+      margin: 0;
+      font-size: 14px;
+      color: #212529;
+    }
+    .close-btn {
+      background: transparent;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: #6c757d;
+      cursor: pointer;
+      padding: 0 4px;
+      line-height: 1;
+      border-radius: 3px;
+      width: auto;
+    }
+    .close-btn:hover {
+      color: #000;
+      background-color: #e9ecef;
+    }
+    p {
+      font-size: 12px;
+      color: #6c757d;
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+
+    /* --- Grade range filter panel --- */
+    .panel {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 6px;
+      padding: 8px 10px;
+      margin-bottom: 12px;
+    }
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 6px;
+    }
+    .panel-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: #212529;
+    }
+    .link-btn {
+      background: none;
+      border: none;
+      padding: 0;
+      width: auto;
+      font-size: 11px;
+      font-weight: 500;
+      color: #0d6efd;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .link-btn + .link-btn { margin-left: 8px; }
+    .tier-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #212529;
+      padding: 2px 0;
+      cursor: pointer;
+    }
+    .tier-row input { margin: 0; cursor: pointer; }
+    .tier-name { flex: 1; }
+    .tier-range { color: #495057; font-variant-numeric: tabular-nums; }
+    .tier-count { color: #868e96; font-size: 11px; min-width: 22px; text-align: right; }
+    .tone-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .tone-positive { background: #198754; }
+    .tone-neutral  { background: #adb5bd; }
+    .tone-negative { background: #dc3545; }
+
+    .range-filter {
+      border-top: 1px solid #e9ecef;
+      margin-top: 6px;
+      padding-top: 6px;
+      font-size: 12px;
+      color: #212529;
+    }
+    label.toggle {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #212529;
+      cursor: pointer;
+    }
+    .match-toggle { font-weight: 600; margin-bottom: 2px; }
+    .match-hint { margin: 0 0 8px 20px; }
+    .range-filter label.toggle {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      margin-bottom: 4px;
+    }
+    .range-inputs {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-left: 20px;
+    }
+    .range-inputs input[type="number"] {
+      width: 52px;
+      padding: 3px 4px;
+      font-size: 12px;
+      border: 1px solid #ced4da;
+      border-radius: 3px;
+    }
+    .range-inputs input:disabled { background: #e9ecef; color: #868e96; }
+    .hint {
+      font-size: 11px;
+      color: #868e96;
+      margin: 4px 0 0 20px;
+    }
+    #summary {
+      font-size: 11px;
+      margin-top: 8px;
+      color: #495057;
+    }
+    #summary.warn { color: #b02a37; font-weight: 600; }
+
+
+    /* --- Individual comment manager --- */
+    details.panel > summary {
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 700;
+      color: #212529;
+      list-style-position: inside;
+    }
+    #commentSummary { font-weight: 500; color: #868e96; font-size: 11px; }
+    .cm-controls { display: flex; gap: 6px; margin: 8px 0 4px; }
+    .cm-controls input[type="search"] {
+      flex: 1;
+      min-width: 0;
+      padding: 3px 6px;
+      font-size: 12px;
+      border: 1px solid #ced4da;
+      border-radius: 3px;
+    }
+    .cm-controls select {
+      font-size: 12px;
+      padding: 2px;
+      border: 1px solid #ced4da;
+      border-radius: 3px;
+      background: #fff;
+    }
+    .cm-bulk { margin: 2px 0 6px; }
+    #commentList {
+      max-height: 250px;
+      overflow-y: auto;
+      border: 1px solid #e9ecef;
+      border-radius: 4px;
+      background: #fcfcfd;
+    }
+    .c-item {
+      padding: 5px 6px;
+      border-bottom: 1px solid #e9ecef;
+    }
+    .c-item:last-child { border-bottom: none; }
+    .c-item.excluded { opacity: 0.55; background: #f1f3f5; }
+    .c-item.edited { border-left: 3px solid #fd7e14; padding-left: 3px; }
+    .c-top {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11px;
+      margin-bottom: 3px;
+    }
+    .c-top input[type="checkbox"] { margin: 0; cursor: pointer; }
+    .c-code { color: #868e96; font-variant-numeric: tabular-nums; }
+    .c-badge {
+      background: #e7f1ff;
+      color: #0a58ca;
+      border-radius: 8px;
+      padding: 0 5px;
+      font-size: 10px;
+    }
+    .c-range { margin-left: auto; display: flex; align-items: center; gap: 2px; }
+    .c-range input {
+      width: 34px;
+      padding: 1px 2px;
+      font-size: 11px;
+      border: 1px solid #ced4da;
+      border-radius: 3px;
+    }
+    .c-reset[hidden] { display: none; }
+    .c-text {
+      width: 100%;
+      box-sizing: border-box;
+      font-family: inherit;
+      font-size: 12px;
+      padding: 3px 4px;
+      border: 1px solid #ced4da;
+      border-radius: 3px;
+      resize: vertical;
+      min-height: 34px;
+    }
+    .c-empty { padding: 10px; font-size: 12px; color: #868e96; text-align: center; }
+    .cm-footer { margin-top: 6px; }
+
+    /* --- Action buttons --- */
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .btn-group button {
+      width: 100%;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    #startBtn {
+      background-color: #0d6efd;
+      color: white;
+    }
+    #startBtn:hover:not(:disabled) {
+      background-color: #0b5ed7;
+    }
+    #startBtn:disabled {
+      background-color: #9ec5fe;
+      cursor: not-allowed;
+    }
+    #deleteBtn {
+      background-color: #dc3545;
+      color: white;
+    }
+    #deleteBtn:hover {
+      background-color: #bb2d3b;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-bar">
+    <h3>Row Automator</h3>
+    <button id="closeBtn" class="close-btn" title="Close popup">&times;</button>
+  </div>
+  <p>Cycle rows 0 through 19 to automate comments or clean up existing comments.</p>
+
+  <div class="panel">
+    <div class="panel-header">
+      <span class="panel-title">Allowed grade tiers</span>
+      <span>
+        <button id="tierAll" class="link-btn" type="button">All</button>
+        <button id="tierNone" class="link-btn" type="button">None</button>
+      </span>
+    </div>
+
+    <label class="toggle match-toggle">
+      <input type="checkbox" id="matchGrade" checked>
+      <span>Match each row's Gradebook Avg</span>
+    </label>
+    <div class="hint match-hint">Reads "Gradebook Avg: ##" from each row and only uses comments whose grade range includes it. Rows with no match are skipped.</div>
+
+    <!-- Tier checkboxes are generated from comments.json by popup.js -->
+    <div id="tierList"></div>
+
+    <div class="range-filter">
+      <label class="toggle">
+        <input type="checkbox" id="useRange">
+        <span>Also limit to a grade range</span>
+      </label>
+      <div class="range-inputs">
+        <input type="number" id="rangeMin" min="0" max="100" value="0" disabled>
+        <span>to</span>
+        <input type="number" id="rangeMax" min="0" max="100" value="100" disabled>
+      </div>
+      <div class="hint">Keeps comments whose grade range overlaps these grades.</div>
+    </div>
+
+    <div id="summary">Loading comments…</div>
+  </div>
+
+  <details class="panel" id="commentPanel">
+    <summary>Individual comments <span id="commentSummary"></span></summary>
+
+    <div class="cm-controls">
+      <input type="search" id="commentSearch" placeholder="Search comments or #code">
+      <select id="commentFilter" title="Show">
+        <option value="all">All</option>
+        <option value="included">Included</option>
+        <option value="excluded">Excluded</option>
+        <option value="edited">Edited</option>
+        <option value="custom">Custom</option>
+        <option value="original">Original</option>
+      </select>
+    </div>
+    <div class="cm-bulk">
+      <button id="commentsIncludeShown" class="link-btn" type="button">Include shown</button>
+      <button id="commentsExcludeShown" class="link-btn" type="button">Exclude shown</button>
+    </div>
+
+    <!-- Comment rows are generated from comments.json by popup.js -->
+    <div id="commentList"></div>
+
+    <div class="cm-footer">
+      <button id="commentsResetAll" class="link-btn" type="button">Reset all edits</button>
+      <button id="commentsExport" class="link-btn" type="button">Export comments.json</button>
+    </div>
+    <div class="hint" style="margin-left:0">Edits are saved in this popup. Use Export to save them to a file.</div>
+  </details>
+
+  <div class="btn-group">
+    <button id="startBtn" disabled>Start Processing Rows</button>
+    <button id="deleteBtn">Delete All Comments</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

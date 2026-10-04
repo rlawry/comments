@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Row Comment Automator",
+  "version": "1.0",
+  "description": "Cycles through rows 0-19, inputs text into textareas, and submits comments.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
